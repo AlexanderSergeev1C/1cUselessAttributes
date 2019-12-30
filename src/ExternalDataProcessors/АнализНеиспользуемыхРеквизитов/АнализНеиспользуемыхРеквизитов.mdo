@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ea489f9-aca5-4276-80f3-89d488967007">
+  <producedTypes>
+    <objectType typeId="ee2bd4b5-eae3-437a-a702-492535be4b01" valueTypeId="40bbd335-e332-4ca4-8a66-3e8c9db702ff"/>
+  </producedTypes>
+  <name>АнализНеиспользуемыхРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ неиспользуемых реквизитов (ver 1.01)</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d083ea45-87fe-45a9-84db-8667d50de302"/>
+  <defaultForm>ExternalDataProcessor.АнализНеиспользуемыхРеквизитов.Form.Форма</defaultForm>
+  <forms uuid="783faab9-a39d-4978-80e4-5ae008c1058f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a61cda5-4684-42a8-8b26-0218fefce8ab">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
